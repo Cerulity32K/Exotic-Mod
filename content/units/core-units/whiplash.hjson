@@ -20,24 +20,23 @@ weapons: [
     y: 0
     shootCone: 5
     shootY: 11
-    reload: 244
-    cooldownTime: 120
+    reload: 20
     shootSound: railgun
-    recoil: 0
+    recoil: 10
     bullet: {
       type: RailBulletType
       damage: 450
-      buildingDamageMultiplier: 0.01
+      buildingDamageMultiplier: 1000
       pierceDamageFactor: 0.0012
       length: 350
       shootEffect: {
         type: ParticleEffect
         lifetime: 25
         cone: 5
-        colorFrom: ffd280
-        colorTo: d4816a
+        colorFrom: 00ccff
+        colorTo: ff0000
         length: 40
-        particles: 15
+        particles: 60
       }
       updateEffect: {
         type: ParticleEffect
