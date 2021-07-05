@@ -2,7 +2,7 @@ type: OverdriveProjector
 size: 3
 health: 1080
 range: 210
-speedBoost: 9.5
+speedBoost: 20
 baseColor: e3567c
 category: effect
 hasBoost: false
@@ -15,16 +15,5 @@ requirements: [
 ]
 consumes: {
   power: 10.5
-  items: {
-    items: [
-      silicon/1
-      cookienite-baked/1
-      bluewolframite/1
-    ]
-  }
-  liquid: {
-    liquid: cryofluid
-    amount: 0.35
-  }
 }
 research: bluewolframite-overdrive-projector
