@@ -20,8 +20,8 @@ weapons: [
     y: 0
     shootCone: 5
     shootY: 11
-    reload: 20
-    shootSound: railgun
+    reload: 5
+    shootSound: flame
     recoil: 10
     bullet: {
       type: RailBulletType
@@ -41,7 +41,7 @@ weapons: [
       updateEffect: {
         type: ParticleEffect
         particles: 1
-        lifetime: 25
+        lifetime: 5
         sizeFrom: 16
         sizeTo: 0
         length: 0
