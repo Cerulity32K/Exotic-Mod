@@ -1,7 +1,7 @@
 type: flying
 controller: BuilderAI
 flying: true
-speed: 10
+speed: 6
 drag: 0.1
 itemCapacity: 125
 rotateSpeed: 999
@@ -18,7 +18,7 @@ weapons: [
     mirror: false
     x: 0
     y: 0
-    shootCone: 5
+    shootCone: 90
     shootY: 11
     reload: 5
     shootSound: flame
