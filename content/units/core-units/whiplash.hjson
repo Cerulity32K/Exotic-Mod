@@ -1,10 +1,10 @@
 type: flying
 controller: BuilderAI
 flying: true
-speed: 4.4
+speed: 10
 drag: 0.1
 itemCapacity: 125
-rotateSpeed: 15.4
+rotateSpeed: 999
 buildSpeed: 7.8
 mineSpeed: 12
 mineTier: 6
@@ -31,22 +31,22 @@ weapons: [
       length: 350
       shootEffect: {
         type: ParticleEffect
-        lifetime: 25
+        lifetime: 120
         cone: 5
-        colorFrom: 00ccff
-        colorTo: ff0000
-        length: 40
-        particles: 60
+        colorFrom: ff0000
+        colorTo: 808000
+        length: 160
+        particles: 30
       }
       updateEffect: {
         type: ParticleEffect
         particles: 1
         lifetime: 25
-        sizeFrom: 64
+        sizeFrom: 16
         sizeTo: 0
         length: 0
-        colorFrom: ffd37f
-        colorTo: ffd37f
+        colorFrom: 00ccff
+        colorTo: 000000
         region: exotic-mod-diamond-wide
       }
       hitEffect: railHit
