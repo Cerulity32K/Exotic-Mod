@@ -27,7 +27,7 @@ weapons: [
       type: RailBulletType
       damage: 450
       buildingDamageMultiplier: 1000
-      pierceDamageFactor: 0.0012
+      pierce: true
       length: 350
       shootEffect: {
         type: ParticleEffect
